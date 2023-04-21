@@ -12,12 +12,12 @@ body {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    height: 200px;
+    height: 300px;
     width: 50vw;
     /* border: 2px solid black; */
     justify-content: center;
     text-align: center;
-    margin-top: 16%;
+    margin-top: 10%;
     background-color: #8686a1;
     box-shadow: inset
     6px 6px 13px #fff,  6px 6px 13px rgba(0,0,0, .16);
@@ -81,4 +81,10 @@ span {
     font-weight: bolder;
     background-color: #ffffff75;
     margin: 0 0 5px;
+}
+
+@media screen and (max-width:770px ){
+    .main-container {
+        width: 90vw;
+    }
 }
