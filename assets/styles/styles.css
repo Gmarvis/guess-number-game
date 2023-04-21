@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8686a1;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 50vw;
+    /* border: 2px solid black; */
+    justify-content: center;
+    text-align: center;
+    margin-top: 16%;
+    background-color: #8686a1;
+    box-shadow: inset
+    6px 6px 13px #fff,  6px 6px 13px rgba(0,0,0, .16);
+    border-radius: 10px;
+    /* background-image: url(../dise.png);
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: 10; */
+
+}
+
+input {
+    /* width: 60%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 30px; */
+    padding: 10px;
+    outline: none;
+    
+}
+
+p {
+    padding: 5px;
+    /* background-color: #fff; */
+    width: 58.5%;
+    margin: 5px auto;
+    color: #383855;
+    text-transform: uppercase;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+button {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: 20px; */
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset
+    6px 6px 13px #fff,  6px 6px 13px rgba(0,0,0, .16);
+    background-color: #8686a1;
+    
+}
+
+#btn {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+span {
+    color: red;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #ffffff75;
+    margin: 0 0 5px;
+}
